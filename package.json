@@ -1,0 +1,13 @@
+{
+  "name": "zentryx-crm",
+  "version": "1.0.0",
+  "description": "Zentryx CRM with Webhooks and AI",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  }
+}

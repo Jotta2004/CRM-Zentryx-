@@ -1,0 +1,79 @@
+.auth-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color-alt);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--bg-color);
+  padding: 40px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.auth-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+  color: var(--text-color);
+}
+
+.auth-logo i {
+  color: var(--primary-color);
+  width: 36px;
+  height: 36px;
+}
+
+.auth-logo h1 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+
+.auth-btn {
+  margin-top: 8px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.auth-error {
+  color: var(--danger);
+  font-size: 14px;
+  margin-bottom: 16px;
+  display: none;
+}
+
+.pending-icon {
+  width: 64px;
+  height: 64px;
+  color: var(--warning);
+  margin-bottom: 24px;
+}
+
+.pending-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.pending-text {
+  color: var(--text-color);
+  opacity: 0.8;
+  margin-bottom: 32px;
+}
